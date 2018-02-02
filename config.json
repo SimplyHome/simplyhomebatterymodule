@@ -1,0 +1,10 @@
+{
+  "name": "SimplyHome Firefly Battery Module",
+  "version": "0.1",
+  "slug": "simplyhome_firefly_battery",
+  "description": "SimplyHome battery plugin for Hass.io",
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {}
+}
