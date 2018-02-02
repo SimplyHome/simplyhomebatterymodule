@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "name": "SimplyHome Firefly Battery Module",
   "version": "0.1",
@@ -8,3 +9,15 @@
   "options": {},
   "schema": {}
 }
+=======
+{
+  "name": "SimplyHome Firefly Battery Add on",
+  "version": "0.8",
+  "slug": "simplyhome_firefly_battery",
+  "description": "SimplyHome battery plugin for Hass.io",
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {}
+}
+>>>>>>> e23cfdaa0a07c39eb34d92217bebb255aaf55205

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FROM resin/rpi-raspbian
 ENV LANG C.UTF-8
 
@@ -20,3 +21,18 @@ COPY run.sh /
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
+=======
+FROM %%BASE_IMAGE%%
+
+ENV LANG C.UTF-8
+
+#install UPSPico Dependencies
+
+# Copy data for add-on
+COPY src/* /home/pi/
+COPY src/rc.local /etc/
+COPY run.sh /
+RUN chmod a+x /run.sh
+
+CMD [ "/run.sh" ]
+>>>>>>> e23cfdaa0a07c39eb34d92217bebb255aaf55205
