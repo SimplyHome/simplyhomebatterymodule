@@ -1,0 +1,15 @@
+{
+  "name": "SimlyHome Battery Module",
+  "version": "1.0",
+  "slug": "battery_module",
+  "description": "enable battery module",
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "device": null
+  },
+  "schema": {
+    "device": "str"
+  },
+  "image": "hub/{arch}-battery-module"
+}
