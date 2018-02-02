@@ -5,6 +5,7 @@
   "slug": "simplyhome_firefly_battery",
   "description": "SimplyHome battery plugin for Hass.io",
   "maintainer": "SimplyHome Support <support@simply-home.com>",
+  "url": "https://github.com/SimplyHome/simplyhomebatterymodule",
   "startup": "before",
   "boot": "auto",
   "options": {},
